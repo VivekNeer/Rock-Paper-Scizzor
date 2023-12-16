@@ -1,16 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rock-Paper-Scissors</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-        <script src="javascript.js" async defer></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="player-section">
+            <button id="rock" class="button" onclick="playRound('rock')">Rock</button>
+            <button id="paper" class="button" onclick="playRound('paper')">Paper</button>
+            <button id="scissors" class="button" onclick="playRound('scissors')">Scissors</button>
+        </div>
+        <div class="results-section">
+            <div id="result-text"></div>
+            <div class="scoreboard">
+                <p>Results</p>
+                <div class="scores">
+                    <span id="player-score">0</span>
+                    <span id="separator">:</span>
+                    <span id="computer-score">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript.js" async defer></script>
+</body>
+
 </html>
