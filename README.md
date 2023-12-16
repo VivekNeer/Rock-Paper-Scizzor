@@ -9,4 +9,4 @@ Rock-Paper-Scizzor is a web-based game that lets you play the classic game of ro
 
 How to use :video_game:
 
-To use this game, you need to clone this repository and open the index.html file in your browser. Alternatively, you can visit the live demo. You will see three buttons: rock, paper, and scissor. Click on the one you want to choose, and the game will show you the result and your score. You can play as many rounds as you want, and reset the score by clicking on the reset button
+To use this game, you need to clone this repository and open the index.html file in your browser. Alternatively, you can visit the [Live Demo](https://vivekneer.github.io/Rock-Paper-Scizzor/){:target="_blank"}. You will see three buttons: rock, paper, and scissor. Click on the one you want to choose, and the game will show you the result and your score. You can play as many rounds as you want, and reset the score by clicking on the reset button
